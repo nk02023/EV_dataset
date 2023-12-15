@@ -26,5 +26,6 @@ print(Year)
 print(Model)
 
 # task create table in which columns county , state , years and model , find number of unique 
-
+next_ev_df = ev_df[['County','State','Model Year','Model']]
+print(ev_df['State'].unique())
 
